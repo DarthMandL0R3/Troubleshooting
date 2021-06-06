@@ -1,4 +1,4 @@
-# Troubleshooting
+# General IT Troubleshooting Guide
 
 **Troubleshooting Guide**
 
@@ -18,6 +18,9 @@ limitations under the License.
 
 - You may obtain a copy of the license at
     [Creative Commons Zero v1.0 Universal](LICENSE)
+
+## Table Of Contents
+---
 
 ## Hardware
 ---
