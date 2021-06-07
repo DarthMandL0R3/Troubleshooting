@@ -68,3 +68,9 @@ limitations under the License.
 ---
 
 ### **Fundamentals**
+
+* IT Fundamentals
+  - [IT k Funde](https://www.youtube.com/channel/UC1RauiosDyz3K16X1wkaeiA)
+
+* DevOps
+  - [TechWorld with Nana](https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA)
