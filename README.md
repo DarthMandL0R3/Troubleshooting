@@ -36,7 +36,7 @@ limitations under the License.
       - [VMware](#vmware)
     - [**Database**](#database)
   - [## **Others**](#-others)
-    - [**Fundementals**](#fundementals)
+    - [**Fundamentals**](#fundamentals)
 
 ## **Hardware**
 ---
@@ -67,4 +67,4 @@ limitations under the License.
 ## **Others**
 ---
 
-### **Fundementals**
+### **Fundamentals**
