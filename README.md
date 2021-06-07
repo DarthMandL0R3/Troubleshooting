@@ -23,15 +23,48 @@ limitations under the License.
 ---
 - [General IT Troubleshooting Guide](#general-it-troubleshooting-guide)
   - [## Table Of Contents](#-table-of-contents)
-  - [## Hardware](#-hardware)
-  - [## Software](#-software)
-  - [## Others](#-others)
+  - [## **Hardware**](#-hardware)
+    - [**Server**](#server)
+    - [**Storage**](#storage)
+      - [NAS](#nas)
+      - [SAN](#san)
+    - [**Network**](#network)
+      - [CRC Error](#crc-error)
+  - [## **Software**](#-software)
+    - [**Virtualization**](#virtualization)
+      - [Ovirt](#ovirt)
+      - [VMware](#vmware)
+    - [**Database**](#database)
+  - [## **Others**](#-others)
+    - [**Fundementals**](#fundementals)
 
-## Hardware
+## **Hardware**
 ---
 
-## Software
+### **Server**
+
+### **Storage**
+
+#### NAS
+
+#### SAN
+
+### **Network**
+
+#### CRC Error
+
+## **Software**
 ---
 
-## Others
+### **Virtualization**
+
+#### Ovirt
+
+#### VMware
+
+### **Database**
+
+## **Others**
 ---
+
+### **Fundementals**
