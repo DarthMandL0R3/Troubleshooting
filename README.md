@@ -36,11 +36,16 @@ limitations under the License.
       - [Ovirt](#ovirt)
       - [VMware](#vmware)
     - [**Database**](#database)
+      - [Database Connection Errors](#database-connection-errors)
   - [## **Others**](#-others)
     - [**Fundamentals**](#fundamentals)
-      - [Security](#security)
       - [IT Fundamentals](#it-fundamentals)
+      - [Hardware](#hardware)
+      - [Networks](#networks)
       - [DevOps](#devops)
+      - [Virtualization](#virtualization-1)
+      - [Security](#security)
+      - [Programming](#programming)
 
 ## **Hardware**
 ---
@@ -159,17 +164,62 @@ limitations under the License.
 
 ### **Database**
 
+#### Database Connection Errors
+
+-  The first thing you should ask yourself when you have this error is, `"Is the error persistent or intermittent?"`.
+ 
+-  Second, `"Is this occurring for all sites or just one?"`.
+
+-  If the **error is intermittent**, check for the following:
+   -  *OOMs*
+   -  *Max_connections being exceeded*
+
+- If the **error is persistent but occurs for all sites**, check the following:
+  - *Disk space exceeded*
+  - *Whether MySQL is running, has crashed tables, or has InnoDB corruption.*
+  - *There are missing PHP Modules* to handle SQL connections (rarely seen issue).
+
+- If the **error is persistent, but only occurs for one site**, check the following:
+  - *Invalid or mismatched credentials* in the site's database configuration file as compared to those stored in cPanel/MySQL.
+  - *PHP has been upgraded, but the site isn't yet compatible with PHP 7* (still uses the deprecated function mysql_connect).
+
+- Refer to the site given below for the troubleshooting techniques:
+  - [DB Connection Errors](https://www.knownhost.com/wiki/developmental/troubleshooting-database-connection-errors)  
+
 ## **Others**
 ---
 
 ### **Fundamentals**
 
-#### Security
-
-  - []()
-
 #### IT Fundamentals
   - [IT k Funde](https://www.youtube.com/channel/UC1RauiosDyz3K16X1wkaeiA)
 
+#### Hardware
+  - Servers
+    - [Davoud Teimouri](https://www.teimouri.net)
+  - Miniature Machines
+    - Jeff Geerling
+      - [Blog](https://www.jeffgeerling.com/blog)
+      - [YouTube](https://www.youtube.com/c/JeffGeerling/featured)
+
+#### Networks
+  - [NexGenT](https://www.youtube.com/c/NexGenT/featured)
+
 #### DevOps
   - [TechWorld with Nana](https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA)
+
+#### Virtualization
+  - oVirt  
+    - [Skrin Hitam](https://skrinhitam.wordpress.com/category/ovirt/)
+    - [Kirelos](https://kirelos.com/tag/ovirt/)
+    - [Common Issues](https://redhat.slides.com/pdelasca/red-hat-enterprise-virtualization-common-issues-and-troubleshooting/fullscreen)
+
+  - VMWare
+    - [UnixArena](https://www.unixarena.com)
+    - [Virten](https://www.virten.net)
+
+#### Security
+  - [Black Hills](https://www.youtube.com/c/BlackHillsInformationSecurity/featured)
+
+#### Programming
+   - [Full Stack Python](https://www.fullstackpython.com)
