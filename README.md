@@ -160,6 +160,33 @@ limitations under the License.
 
 #### Ovirt
 
+* Template Sealing
+    
+        Remove SSH Host Keys
+        --------------------
+        rm -f /etc/ssh/ssh_host_*
+
+        Remove Hostname
+        ---------------
+        hostnamectl set-hostname 'localhost'
+
+        Remove Host Specific Information
+        ---------------------------------
+        rm -f /etc/udev/rules.d/*-persistent-*.rules
+        sed -i '/^HWADDR=/d' /etc/sysconfig/network-scripts/ifcfg-*
+        sed -i '/^UUID=/d' /etc/sysconfig/network-scripts/ifcfg-*
+
+        Remove RHN System ID
+        --------------------
+        rm -f /etc/sysconfig/rhn/systemid
+
+        Run sys-unconfig
+        ----------------
+        sys-unconfig
+
+    - Reference:
+      - [LinuxTechi Template Sealing](https://www.linuxtechi.com/create-vm-template-ovirt-environment/) 
+
 #### VMware
 
 ### **Database**
